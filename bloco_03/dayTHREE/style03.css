@@ -1,0 +1,16 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: rosybrown;
+}
+
+li:active {
+    color:saddlebrown;
+}
+
+
+ul, ol {
+    list-style: none;
+}
