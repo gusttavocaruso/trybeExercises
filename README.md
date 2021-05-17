@@ -2,6 +2,9 @@
 
 Este repositório foi criado para inserir todos exercícios que desenvolvi durante o curso de Desenvolvimento Web Full-Stack da [Trybe](https://www.betrybe.com/) :rocket:
 
+:muscle: :brain: :man_technologist: 
+
+
 
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
