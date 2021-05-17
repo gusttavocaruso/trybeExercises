@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem que estou desenvolvendo enquanto estudo na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades que estou desenvolvendo enquanto estudante na [Trybe](https://www.betrybe.com/) :rocket:
 
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
