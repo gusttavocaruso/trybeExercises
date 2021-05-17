@@ -1,4 +1,4 @@
-# Trybe
+# trybeExercises
 
 Este repositório contém todas as atividades que estou desenvolvendo enquanto estudante na [Trybe](https://www.betrybe.com/) :rocket:
 
