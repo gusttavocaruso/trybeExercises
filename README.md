@@ -1,6 +1,6 @@
 # trybeExercises
 
-Este repositório foi criado para inserir todos exercícios que venho realizando durante o curso de Desenvolvimento Web Full-Stack da [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório foi criado para inserir todos exercícios que realizarei durante o curso de Desenvolvimento Web Full-Stack da [Trybe](https://www.betrybe.com/) :rocket:
 
 :man_technologist: :chess_pawn:
 
