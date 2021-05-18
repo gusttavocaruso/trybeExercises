@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.links {
+  background-color: bisque;
+}
+
+.links-nav li {
+  display: inline-block;
+  padding: 10px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.main {
+  background-color: cadetblue;
+}
+
+aside {
+  
+}
+
+footer {
+  background-color: bisque;
+  padding: 5px;
+}
