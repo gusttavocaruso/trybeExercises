@@ -30,7 +30,7 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 
 ##### Bloco 4: Introdução - JavaScript :hourglass_flowing_sand:
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
+- [x] 4-1: _JavaScript - Primeiros passos_
 - [ ] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
