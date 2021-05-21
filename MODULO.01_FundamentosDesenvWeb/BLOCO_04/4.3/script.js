@@ -1,18 +1,49 @@
 let n = 5;
-let simbolo = "*";
+let symbol = "*";
 let square = '';
 
-for (let i = 1; i <= n; i += 1) {
-  square += simbolo;
-}
+// EX1
+// for (let i = 1; i <= n; i += 1) {
+//   square += symbol;
+// }
 
-for (let i2 = 1; i2 <= n; i2 += 1) {
+// for (let i2 = 1; i2 <= n; i2 += 1) {
+//   console.log(square);
+// }
+
+// EX2
+// for (let i = 0; i <= n; i += 1) {
+//   console.log(square);
+//   square += symbol;
+// }
+
+// EX3
+let position = n;
+for (let i = 0; i <= n; i += 1) {
+  for (let i2 = 0; i2 <= n; i2 += 1) {
+    if (i2 < position) {
+      square += ' ';
+    } else {
+      square += symbol;
+    }
+  }
   console.log(square);
+  square = '';
+  position -= 1;
 }
 
 
-
-// ler um numero
-// criar a partir dele
-// uma linha com um asterisco para cada unidade dele
-// repetir essa linha o numero dele de vezes
+// EX-X
+// let position = n;
+// for (let i = 0; i <= n; i += 1) {
+//   for (let i2 = 0; i2 <= n; i2 += 1) {
+//     if (i2 < i) {
+//       square += ' ';
+//     } else {
+//       square += symbol;
+//     }
+//   }
+//   console.log(square);
+//   square = '';
+//   position -= 1;
+// }
