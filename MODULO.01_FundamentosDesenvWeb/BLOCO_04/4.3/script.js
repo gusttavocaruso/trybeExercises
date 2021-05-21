@@ -18,19 +18,39 @@ let square = '';
 // }
 
 // EX3
-let position = n;
-for (let i = 0; i <= n; i += 1) {
-  for (let i2 = 0; i2 <= n; i2 += 1) {
-    if (i2 < position) {
-      square += ' ';
-    } else {
-      square += symbol;
-    }
-  }
-  console.log(square);
-  square = '';
-  position -= 1;
-}
+// let position = n;
+// for (let i = 0; i <= n; i += 1) {
+//   for (let i2 = 0; i2 <= n; i2 += 1) {
+//     if (i2 < position) {
+//       square += ' ';
+//     } else {
+//       square += symbol;
+//     }
+//   }
+//   console.log(square);
+//   square = '';
+//   position -= 1;
+// }
+
+//  EX4
+
+// let squareMid = (n + 1) / 2;
+// let squareLeft = squareMid;
+// let squareRight = squareMid;
+
+// for (let i = 0; i < squareMid; i += 1) {
+//   for (let i2 = 0; i2 <= n; i2 += 1) {
+//     if (i2 >= squareLeft && i2 <= squareRight) {
+//       square += symbol;
+//     } else {
+//       square += ' ';
+//     }
+//   }
+//   console.log(square);
+//   square = '';
+//   squareRight += 1;
+//   squareLeft -= 1;
+// }
 
 
 // EX-X
