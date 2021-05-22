@@ -46,13 +46,15 @@ function liquidSalary(salarioCarteira) {
   salarioLiquido = salarioCarteira - howManyIRDown;
 
   return salarioLiquido.toFixed(2);
-
 }
+
 
 // CALCULA QUAL SERÁ O SALÁRIO LÍQUIDO A PARTIR DO VALOR QUE ESTÁ NA CARTEIRA DE TRABALHO.
 // CONSIDERA DESCONTOS DE INSS E IR 
 // !NÃO! CONSIDERA PARCELA DE DEDUÇÃO DO IMPOSTO.
 
+
+// insira seu salário:
 salarioCarteira = 0;
 
 
