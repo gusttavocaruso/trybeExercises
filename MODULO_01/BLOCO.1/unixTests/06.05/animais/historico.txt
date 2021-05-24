@@ -1,0 +1,5 @@
+  589  echo "tigre" > animais_top.txt
+  590  ls
+  591  cat animais_top.txt
+  592  history
+  593  history | tail -n3
