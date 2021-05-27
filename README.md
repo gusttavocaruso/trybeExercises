@@ -39,7 +39,7 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 
 ##### Bloco 5: Introdução - JavaScript - Projetos :hourglass_flowing_sand:
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
