@@ -30,19 +30,45 @@ div1.appendChild(div4);
 
 // 7.
 let img1 = document.createElement('img');
-img1.inputMode = 'https://picsum.photos/200';
+img1.src = 'https://picsum.photos/200';
 img1.className = 'small-image';
-div4.appendChild(img1);
+div3.appendChild(img1);
 
-// 8. ---- LOADING..
+// 8.
 let lista = document.createElement('ul');
 let arr = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
 
+let listaLi = [];
 for (let i = 0; i < arr.length; i += 1) {
-  let listaLi = document.createElement('li');
+  listaLi = document.createElement('li');
   listaLi.innerText = arr[i];
   div4.appendChild(listaLi);
 }
 
-// div4.appendChild(lista);
-// lista.appendChild(listaElements);
+// 9.
+let h3 = [];
+for (let j = 0; j < 3; j += 1) {
+  h3 = document.createElement('h3');
+  div1.appendChild(h3);
+};
+
+//  -----------
+
+// 1.
+h1.className = 'title';
+
+// 2.
+h3.className = 'description';
+
+// 3.
+div1.removeChild(div3);
+
+// 4.
+div4.style.marginRight = 'auto';
+
+// 5.
+div1.style.backgroundColor = 'green';
+
+// 6.
+div4.lastChild.remove();
+div4.lastChild.remove();
