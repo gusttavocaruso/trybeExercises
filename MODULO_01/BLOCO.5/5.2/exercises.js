@@ -38,10 +38,10 @@ div4.appendChild(img1);
 let lista = document.createElement('ul');
 let arr = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
 
-
 for (let i = 0; i < arr.length; i += 1) {
   let listaLi = document.createElement('li');
-  console.log(listaLi.innerText = arr[i]);
+  listaLi.innerText = arr[i];
+  div4.appendChild(listaLi);
 }
 
 // div4.appendChild(lista);
