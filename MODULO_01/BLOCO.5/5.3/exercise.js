@@ -10,7 +10,6 @@ function createDaysOfTheWeek() {
     weekDaysList.appendChild(dayListItem);
   };
 };
-
 createDaysOfTheWeek();
 
 // Ex1.
@@ -22,10 +21,12 @@ for (let i = 0; i < dezDaysList.length; i += 1) {
   ulDays.appendChild(liDays);
   let x = dezDaysList[i];
 
-  if (x === 24 || x === 25 | x === 31) {
+  if (x === 24 || x === 31) {
     liDays.className = 'day holiday';
-  } else if (x === 4 || x === 11 || x === 18 || i === 25 || x === 31) {
+  } else if (x === 4 || x === 11 || x === 18 || x === 31) {
     liDays.className = 'day friday';
+  } else if (x === 25) {
+    liDays.className = 'day holiday friday';
   }  else {
     liDays.className = 'day';
   }
@@ -44,7 +45,6 @@ function createButton(buttonName) {
   newButton.innerText = buttonName;
 }
 createButton('Feriado');
-
 
 // Ex3.
 let holidays = document.getElementsByClassName('holiday');
@@ -69,3 +69,35 @@ function getFridayButton(fridayButtonName) {
 }
 getFridayButton('Sextou');
 
+// Ex5.
+let fridays = document.getElementsByClassName('friday');
+
+function letSextou(fridayArr) {
+  let fridaysButton = document.getElementById('btn-friday');
+
+  fridaysButton.addEventListener('click', function () {
+    for (let k = 0; k < fridays.length; k += 1) {
+      if (fridays[k].innerText !== 'SEXTOU') {
+        fridays[k].innerText = 'SEXTOU';
+      } else {
+        fridays[k].innerText = fridayArr[k];
+      }
+    }
+  })
+}
+let dezFridays = [4, 11, 18, 25];
+letSextou(dezFridays);
+
+// Ex6.
+ulDays.addEventListener('mouseover', mouseOver);
+ulDays.addEventListener('mouseout', mouseOut);
+
+function mouseOver (event) {
+event.target.style.fontSize = '30px';
+event.target.style.fontWeight = '600';
+}
+
+function mouseOut (event) {
+  event.target.style.fontSize = '20px';
+  event.target.style.fontWeight = '300';
+}
