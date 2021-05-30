@@ -12,7 +12,7 @@ function createDaysOfTheWeek() {
 };
 createDaysOfTheWeek();
 
-// Ex1.
+// Ex1. 
 const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 let ulDays = document.querySelector('#days');
 
@@ -93,11 +93,26 @@ ulDays.addEventListener('mouseover', mouseOver);
 ulDays.addEventListener('mouseout', mouseOut);
 
 function mouseOver (event) {
-event.target.style.fontSize = '30px';
-event.target.style.fontWeight = '600';
+  event.target.style.fontSize = '30px';
+  event.target.style.fontWeight = '600';
 }
 
 function mouseOut (event) {
   event.target.style.fontSize = '20px';
   event.target.style.fontWeight = '300';
 }
+
+// Ex7.
+function newTask(tasksName) {
+  let divTasks = document.querySelector('.my-tasks');
+  let task = document.createElement('span');
+
+  task.innerHTML = tasksName;
+  divTasks.appendChild(task);
+};
+
+let tasks = ['wash-the-dishes, loundry, aspire-the-floor'];
+
+newTask(tasks);
+
+// Ex8.
