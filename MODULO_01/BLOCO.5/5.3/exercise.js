@@ -126,3 +126,6 @@ function addLeg(colorName) {
   divTasks.appendChild(divTask);
 }
 addLeg('green');
+
+const myCookie = document.cookie;
+console.log(myCookie) // email=isabella@email.com
