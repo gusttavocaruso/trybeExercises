@@ -1,5 +1,5 @@
 function createDaysOfTheWeek() {
-  const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
+  const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
   const weekDaysList = document.querySelector('.week-days');
 
   for (let index = 0; index < weekDays.length; index += 1) {
@@ -111,8 +111,18 @@ function newTask(tasksName) {
   divTasks.appendChild(task);
 };
 
-let tasks = ['wash-the-dishes, loundry, aspire-the-floor'];
+let tasks = ['loundry'];
 
 newTask(tasks);
 
 // Ex8.
+function addLeg(colorName) {
+  let divTask = document.createElement('div');
+  let color = colorName.innerText;
+  let divTasks = document.querySelector('.my-tasks');
+
+  divTask.className = 'task';
+  divTask.style.backgroundColor = 'color';
+  divTasks.appendChild(divTask);
+}
+addLeg('green');
