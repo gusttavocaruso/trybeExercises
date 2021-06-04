@@ -1,13 +1,6 @@
 ## Requisitos do projeto
 
 
-### 👀 Observações importantes:
-
-* Para verificar se a sua função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_.
-* Utilize `console.log()` para testar as funções localmente, mas pode remover antes de fazer o push 😉.
-
----
-
 ### 1 - Crie uma função usando o operador &&
 
 JavaScript possui um operador lógico `&&`, o qual recebe dois valores e retorna `true` se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.
