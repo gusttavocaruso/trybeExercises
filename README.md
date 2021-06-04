@@ -27,7 +27,7 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - HTML & CSS]()_
+- [X] 3-5: _[Projeto - HTML & CSS](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/1.lessons-learned)_
 
 ##### Bloco 4: Introdução - JavaScript :white_check_mark:
 
@@ -35,17 +35,17 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Playground Functions]()_
+- [x] 4-5: _[Projeto - Playground Functions](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/2.playground-functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos :hourglass_flowing_sand:
 
 - [x] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/3.pixel-art)_
+- [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/4.todo-list)_
+- [ ] 5-7: _[Projeto - Meme Generator]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
