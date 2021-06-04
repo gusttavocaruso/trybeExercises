@@ -1,0 +1,39 @@
+#cabecalho {
+  font-size: xx-large;
+  font-family: monospace;
+}
+
+p {
+  font-size: small;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#texto-tarefa {
+  height: 30px;
+  width: 250px;
+}
+
+#criar-tarefa {
+  height: 30px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.liTask {
+  width: 200px;
+  border-bottom: black solid 2.5px;
+  border-radius: 10%;
+  margin: 5px;
+}
+
+#selected-task {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#apaga-tudo {
+  display: inline-block;
+}

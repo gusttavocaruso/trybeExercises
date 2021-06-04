@@ -1,0 +1,65 @@
+* {
+  margin: auto;
+  border: 0;
+  text-align: center;
+  font-family: monospace;
+}
+
+.color {
+  border: black solid 1px;
+  display: inline-block;
+  padding: 30px;
+}
+
+.one {
+  background-color: black;
+}
+
+.two {
+  background-color: greenyellow;
+}
+
+.three {
+  background-color: hotpink;
+}
+
+.four {
+  background-color: lightslategrey;
+}
+
+.pixel {
+  display: inline-block;
+  border: black solid 1px;
+  height: 40px;
+  width: 40px;
+  margin: 0.5px;
+}
+
+#pixel-board {
+  width: 215px;
+}
+
+#color-palette , h1 {
+  margin: 20px;
+}
+
+#clear-board {
+  border: black solid 1.75px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#setInpute {
+  display: inline;
+  width: 30px;
+  height: 25px;
+  margin-top: 8px;
+  background-color:aliceblue;
+  border-bottom: black solid 2px;
+}
+
+#inputar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: black solid 1px;
+}
