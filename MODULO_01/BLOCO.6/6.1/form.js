@@ -7,3 +7,8 @@ for (let i = 0; i < estados.length; i += 1) {
   let states = document.getElementById('state');
   states.appendChild(opt);
 }
+
+const form = document.getElementById('form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+});
