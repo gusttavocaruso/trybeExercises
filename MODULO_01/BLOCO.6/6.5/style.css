@@ -84,3 +84,15 @@ p strong {
    display: flex;
   }
 }
+
+/* UNFINISHED */
+@media screen and (max-width: 500px) {
+  body {
+    overflow: visible;
+  }
+
+  body:nth-child(5) {
+    display: flex;
+    color: yellowgreen;
+  }
+}
