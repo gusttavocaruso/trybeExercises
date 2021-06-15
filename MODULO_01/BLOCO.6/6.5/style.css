@@ -72,3 +72,9 @@ p strong {
     display: flex;
   }
 }
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .card:nth-child(2){
+    display: flex;
+  }
+}
