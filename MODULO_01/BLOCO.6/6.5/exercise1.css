@@ -1,0 +1,30 @@
+body {
+  font-size: large;
+  margin: 8% 8%;
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+  display: flex column;
+  justify-content:space-around;
+  
+    /* margin: 50px auto; */
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
