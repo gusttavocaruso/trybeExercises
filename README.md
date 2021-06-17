@@ -56,14 +56,14 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - TrybeWarts]()_
+- [x] 6-6: _[Projeto - TrybeWarts](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/5.trybewarts)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7-2: _JavaScript ES6 - Objects_
 - [ ] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes UnitÃ¡rios]()_
+- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
 
@@ -253,7 +253,7 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 ##### Bloco 36: Python
 
 - [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e ExceÃ§Ãµes_
+- [ ] 35-2: _Testes e Excessões_
 - [ ] 35-3: _Entrada e Saía de dados_
 - [ ] 36-4: _Entrada e Saída de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
