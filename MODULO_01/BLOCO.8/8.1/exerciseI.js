@@ -8,6 +8,7 @@ const newEmployees = (callback) => {
 };
 
 const newOne = (fullName) => {
+  // codigo dessa func na resolução do Course em comentados:
   //   const email = fullName.toLowerCase().split(' ').join('_');
   //   return { fullName, email: `${email}@trybe.com` };
   const names = fullName.toLowerCase().split(' ');
@@ -20,9 +21,3 @@ const newOne = (fullName) => {
   return obj;
 };
 console.log(newEmployees(newOne));
-
-// Resolução do Course:
-// const employeeGenerator = (fullName) => {
-//   const email = fullName.toLowerCase().split(' ').join('_');
-//   return { fullName, email: `${email}@trybe.com` };
-// };
