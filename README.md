@@ -45,9 +45,9 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/3.pixel-art)_
 - [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/4.todo-list)_
-- [ ] 5-7: _[Projeto - Meme Generator]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [ ] 5-7: _[Projeto BÔNUS - Meme Generator]()_
+- [ ] 5-7: _[Projeto BÔNUS - Adivinhe a Cor]()_
+- [ ] 5-7: _[Projeto BÔNUS - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado :white_check_mark:
 
