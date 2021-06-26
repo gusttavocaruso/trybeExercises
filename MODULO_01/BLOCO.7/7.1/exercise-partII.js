@@ -4,22 +4,23 @@ const fatorial = (x) => {
     return 1;
   } else {
     return x * fatorial(x - 1)
-  }
-}
+  };
+};
 console.log(fatorial(4));
 
 
 
-// ex2.. unfinished yet
-longestWord("Antônio foi no banheiro e não sabemos o que aconteceu") // retorna 'aconteceu'
+// retornar maior palavra da frase => 'aconteceu'
+const phrase = 'Antônio foi no banheiro e não sabemos o que aconteceu'
 
 function longestWord(str) {
   let words = str.split(' ');
+  let big = '';
   for (let i = 0; i < words.length; i += 1) {
-    let big = words[i];
     if (words[i].length > big.length) {
       big = words[i];
     }
-    console.log(big);
-    }
-  }
+  };
+  return big;
+};
+console.log(longestWord(phrase));
