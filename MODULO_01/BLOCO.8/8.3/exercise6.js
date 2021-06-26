@@ -73,7 +73,11 @@ const expectedResult = [
 ];
 
 function oldBooks() {
-  // escreva seu código aqui
-}
+  const thisYear = 2021;
+  let obj = [];
+  books.map((book) => (thisYear - book.releaseYear) >= 60 ? obj.push(book.name) : !book);
+  return obj; 
+};
+console.log(oldBooks());
 
 assert.deepStrictEqual(oldBooks(), expectedResult);

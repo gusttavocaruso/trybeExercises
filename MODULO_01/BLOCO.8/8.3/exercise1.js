@@ -5,61 +5,61 @@ const books = [
     id: 1,
     name: 'As Crônicas de Gelo e Fogo',
     genre: 'Fantasia',
+    releaseYear: 1991,
     author: {
       name: 'George R. R. Martin',
       birthYear: 1948,
     },
-    releaseYear: 1991,
   },
   {
     id: 2,
     name: 'O Senhor dos Anéis',
     genre: 'Fantasia',
+    releaseYear: 1954,
     author: {
       name: 'J. R. R. Tolkien',
       birthYear: 1892,
     },
-    releaseYear: 1954,
   },
   {
     id: 3,
     name: 'Fundação',
     genre: 'Ficção Científica',
+    releaseYear: 1951,
     author: {
       name: 'Isaac Asimov',
       birthYear: 1920,
     },
-    releaseYear: 1951,
   },
   {
     id: 4,
     name: 'Duna',
     genre: 'Ficção Científica',
+    releaseYear: 1965,
     author: {
       name: 'Frank Herbert',
       birthYear: 1920,
     },
-    releaseYear: 1965,
   },
   {
     id: 5,
     name: 'A Coisa',
     genre: 'Terror',
+    releaseYear: 1986,
     author: {
       name: 'Stephen King',
       birthYear: 1947,
     },
-    releaseYear: 1986,
   },
   {
     id: 6,
     name: 'O Chamado de Cthulhu',
     genre: 'Terror',
+    releaseYear: 1928,
     author: {
       name: 'H. P. Lovecraft',
       birthYear: 1890,
     },
-    releaseYear: 1928,
   },
 ];
 
@@ -76,7 +76,8 @@ const expectedResult = [
 ];
 
 function formatedBookNames() {
-  // escreva seu código aqui
-}
+  return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`)
+};
+console.log(formatedBookNames());
 
 assert.deepStrictEqual(formatedBookNames(), expectedResult);
