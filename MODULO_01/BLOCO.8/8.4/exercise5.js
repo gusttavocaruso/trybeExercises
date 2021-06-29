@@ -9,7 +9,9 @@ const names = [
 ];
 
 function containsA() {
-  // escreva seu código aqui
-}
+  return names.reduce((acc, name) =>
+  acc + name.toLowerCase().split('').reduce((acumulator, current) => current === 'a'? acumulator + 1 : acumulator, 0), 0);
+};
+console.log(containsA());
 
-assert.deepStrictEqual(containsA(), 20);
+// assert.deepStrictEqual(containsA(), 20);
