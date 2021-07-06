@@ -65,7 +65,7 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 7-3: _Testes unitários em JavaScript_
 - [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/6.js-unit-tests)_
 
-##### Bloco 8: Higher Order Functions (HOF) do JavaScript ES6 :hourglass_flowing_sand:
+##### Bloco 8: Higher Order Functions (HOF) do JavaScript ES6 :white_check_mark:
 
 - [x] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
@@ -74,7 +74,7 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [ ] 8-6: _[Projeto - Zoo functions]()_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: Assincronicidade & Callbacks :hourglass_flowing_sand:
 
 - [ ] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Promises_
