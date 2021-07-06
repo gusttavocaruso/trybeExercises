@@ -2,7 +2,7 @@
 
 Este repositório foi criado para inserir todos exercícios que realizarei durante o curso de Desenvolvimento de Software Web Full-Stack da [Trybe](https://www.betrybe.com/) :rocket:
 
-# :man_technologist: :chess_pawn:
+# :chess_pawn: :man_technologist: :chess_pawn:
 
 
 
