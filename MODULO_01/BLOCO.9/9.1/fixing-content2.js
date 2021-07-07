@@ -16,9 +16,9 @@ const getUser = (callback) => {
       lastName: "Ivanovich",
       nationality: "Russian",
     };
-    return callback(user);
+    console.log(callback(user));
   }, delay());
 };
 
-console.log(getUser(userFullName));
-console.log(getUser(userNationality));
+getUser(userFullName);
+getUser(userNationality);
