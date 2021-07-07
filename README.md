@@ -72,12 +72,12 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions]()_
+- [x] 8-6: _[Projeto - Zoo functions](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/7.zoo-functions)_
 
 ##### Bloco 9: Assincronicidade & Callbacks :hourglass_flowing_sand:
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Promises_
 - [ ] 9-3: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Jest
