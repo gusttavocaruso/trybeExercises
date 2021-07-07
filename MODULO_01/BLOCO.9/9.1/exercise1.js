@@ -1,4 +1,5 @@
 // Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
+// RESPOSTA => Será executado na ordem de console.log: A, B e depois C.
 
 const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
   `${name} is ${value} ${measurementUnit} apart from the Sun`;
