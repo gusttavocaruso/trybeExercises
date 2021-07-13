@@ -1,14 +1,14 @@
 # trybeExercises
 
-Este repositório foi criado para inserir todos exercícios que realizarei durante o curso de Desenvolvimento de Software Web Full-Stack da [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório foi criado para inserir todos exercícios que realizarei durante o curso de Desenvolvimento de Software da [Trybe](https://www.betrybe.com/) :rocket:
 
-# :chess_pawn: :man_technologist: :chess_pawn:
-
-
+# :chess_pawn: :man_technologist: :bulb:
 
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
-### MODULO_01 :open_file_folder:
+
+
+## 
+### MODULO_01 :open_file_folder: - Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
  
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark: 
 
@@ -46,8 +46,6 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/3.pixel-art)_
 - [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/4.todo-list)_
 - [ ] 5-7: _[Projeto BÔNUS - Meme Generator]()_
-- [ ] 5-7: _[Projeto BÔNUS - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto BÔNUS - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado :white_check_mark:
 
@@ -87,8 +85,8 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
-## Desenvolvimento Front-end 
-### MODULO_02 :open_file_folder:
+##  
+### MODULO_02 :open_file_folder: - Desenvolvimento Front-end
 
 ##### Bloco 11: Introdução - React
 
@@ -144,8 +142,8 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 
 - [ ] 19-1: _[Projeto - App de Receitas]()_
 
-## Desenvolvimento Back-end
-### MODULO_03 :open_file_folder:
+## 
+### MODULO_03 :open_file_folder: - Desenvolvimento Back-end
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
@@ -241,8 +239,8 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 
 - [ ] 34-1: _[Projeto - Trybeer V2]()_
 
-## Ciência da Computação
-### MODULO_04 :open_file_folder:
+## 
+### MODULO_04 :open_file_folder: - Ciência da Computação
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
