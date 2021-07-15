@@ -72,16 +72,16 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [x] 8-6: _[Projeto - Zoo functions](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/7.zoo-functions)_
 
-##### Bloco 9: Assincronicidade & Callbacks :hourglass_flowing_sand:
+##### Bloco 9: Assincronicidade & Callbacks :white_check_mark:
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [x] 9-3: _[Projeto - Shopping Cart](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/8.shopping-cart)_
 
-##### Bloco 10: Jest
+##### Bloco 10: Jest :hourglass_flowing_sand:
 
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assíncronos_
+- [x] 10-1: _Primeiros passos no Jest_
+- [x] 10-2: _Jest - Testes Assíncronos_
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
