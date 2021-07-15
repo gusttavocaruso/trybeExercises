@@ -10,6 +10,9 @@
 */
 
 const numbers = (myArray) => {
+  // return myArray.forEach((number) =>
+  //   (typeof number !== 'number') ?
+  //     false : true);
   for (let i = 0; i < myArray.length; i += 1) {
     if (typeof myArray[i] !== 'number') {
       return false;
@@ -17,5 +20,6 @@ const numbers = (myArray) => {
   }
   return true;
 };
+console.log(numbers([2, 3, 4]))
 
 module.exports = numbers;
