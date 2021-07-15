@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>gusttavocaruso's shopping cart project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <section class="container">
+
+      <h1 class="loading">
+        Loading page .. please wait
+      </h1>
+
+      <section class="items">
+      </section>
+
+      <section class="cart">
+
+        <input placeholder='What are you looking for?'
+          class="item-buscar" type="text">
+
+        <span class="cart__title">Carrinho de compras
+        </span>
+
+        <button class="empty-cart">Esvaziar carrinho
+        </button>
+
+        <ol class="cart__items"></ol>
+        <div>TOTAL $$$: 
+          <span class="total-price"></span>
+        </div>
+
+      </section>
+
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
