@@ -2,7 +2,7 @@ Passo a passo instalar 'pacote JEST'
 
 1. 
 Na pasta do projeto, abra o terminal e digite:
-npm initi -y
+npm init -y
 
 2.
 Este comando acabou de criar o arquivo package.json.
