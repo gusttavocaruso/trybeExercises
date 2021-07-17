@@ -1,0 +1,12 @@
+{
+  "name": "10.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content-01.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
