@@ -16,7 +16,9 @@ por:
 
 3.
 Agora, no terminal, digite o comando para instalar o JEST:
-npm install --save-dev jest
+npm install --save-dev jest 
+ou
+npm i -D jest
 
 Esse comando irá instalar tudo o que é necessário para o Jest,
 criando a pasta node_modules e o arquivo package-lock.json.

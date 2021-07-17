@@ -2,7 +2,10 @@
   "name": "part-I",
   "version": "1.0.0",
   "description": "",
-  "main": "exercise-01.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "jest"
   },
