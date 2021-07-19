@@ -1,6 +1,5 @@
 ## FOLDER CONTENT:
 
-### MODULO_01 :open_file_folder: - Fundamentos do Desenvolvimento Web :white_check_mark:
  
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark: 
 
