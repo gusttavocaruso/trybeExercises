@@ -8,7 +8,7 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 
 
 ## 
-### MODULO_01 :open_file_folder: - Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+### MODULO_01 :open_file_folder: - Fundamentos do Desenvolvimento Web :white_check_mark:
  
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark: 
 
@@ -78,17 +78,17 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 9-2: _JavaScript Promises_
 - [x] 9-3: _[Projeto - Shopping Cart](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/8.shopping-cart)_
 
-##### Bloco 10: Jest :hourglass_flowing_sand:
+##### Bloco 10: Jest :white_check_mark:
 
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [x] 10-3: _Jest - Simulando comportamentos_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
 ##  
-### MODULO_02 :open_file_folder: - Desenvolvimento Front-end
+### MODULO_02 :open_file_folder: - Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React
+##### Bloco 11: Introdução - React :hourglass_flowing_sand:
 
 - [ ] 11-1: _'Hello, world!' no React!_
 - [ ] 11-2: _Componentes React_
