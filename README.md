@@ -83,7 +83,7 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/9.Jest%26Mock)_
 
 ##  
 ### MODULO_02 :open_file_folder: - Desenvolvimento Front-end :hourglass_flowing_sand:
