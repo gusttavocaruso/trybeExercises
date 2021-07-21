@@ -22,3 +22,4 @@ const verifyCredentials = ({ userName, password }) => {
 const { userName, password } = user;
 
 module.exports = { greetingMessage, loginErrorMessage, verifyCredentials }
+
