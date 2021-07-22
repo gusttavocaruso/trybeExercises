@@ -90,8 +90,8 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 
 ##### Bloco 11: Introdução - React :hourglass_flowing_sand:
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
+- [x] 11-1: _'Hello, world!' no React!_
+- [x] 11-2: _Componentes React_
 - [ ] 11-3: _[Projeto - Movie Cards Library]()_
 
 ##### Bloco 12: React
