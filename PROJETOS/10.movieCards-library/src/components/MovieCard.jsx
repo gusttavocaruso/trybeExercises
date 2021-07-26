@@ -10,7 +10,6 @@ class MovieCard extends React.Component {
     } = this.props;
 
     return (
-
       <div className="movie-card">
 
         <section className="movie-card-body">
@@ -25,7 +24,6 @@ class MovieCard extends React.Component {
         </section>
 
       </div>
-
     );
   }
 
