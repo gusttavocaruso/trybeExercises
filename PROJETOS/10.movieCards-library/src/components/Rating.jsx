@@ -12,7 +12,6 @@ class Rating extends React.Component {
       </div>
     );
   }
-
 }
 
 Rating.propTypes = {
