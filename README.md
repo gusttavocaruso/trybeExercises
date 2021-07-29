@@ -88,16 +88,16 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 ##  
 ### MODULO_02 :open_file_folder: - Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React :hourglass_flowing_sand:
+##### Bloco 11: Introdução - React :white_check_mark:
 
 - [x] 11-1: _'Hello, world!' no React!_
 - [x] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/10.movieCards-library)_
 
-##### Bloco 12: React
+##### Bloco 12: React :hourglass_flowing_sand:
 
-- [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulários no React_
+- [x] 12-1: _Components com estado_
+- [x] 12-2: _Eventos e formulários no React_
 - [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
 
 ##### Bloco 13: React
