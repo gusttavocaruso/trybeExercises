@@ -100,13 +100,13 @@ Este repositório foi criado para inserir todos exercícios que realizarei duran
 - [x] 12-2: _Eventos e formulários no React_
 - [x] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/11.movieCards-library-stateful)_
 
-##### Bloco 13: React :hourglass_flowing_sand:
+##### Bloco 13: React :white_check_mark:
 
 - [x] 13-1: _Ciclo de vida de componentes em React_
 - [x] 13-2: _React Router_
-- [ ] 13-3: _[Projeto - Movie Cards Library CRUD]()_
+- [x] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/12.movieCards-library-CRUD)_
 
-##### Bloco 14: Metodologias Ágeis
+##### Bloco 14: Metodologias Ágeis :hourglass_flowing_sand:
 
 - [ ] 14-1: _Metodologias ágeis_
 - [ ] 14-2: _[Projeto - Frontend Online Store]()_
