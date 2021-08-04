@@ -1,6 +1,6 @@
 # trybeExercises
 
-Este repositório foi criado para inserir todos exercícios que realizarei durante o curso de Desenvolvimento de Software da [Trybe](https://www.betrybe.com/) :rocket:
+Repositório que armazena os exercícios e projetos realizados durante o curso de Engenharia de Software da [Trybe](https://www.betrybe.com/) :rocket:
 
 # :chess_pawn: :man_technologist: :bulb:
 
