@@ -106,12 +106,12 @@ Repositório que armazena os exercícios e projetos realizados durante o curso d
 - [x] 13-2: _React Router_
 - [x] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/12.movieCards-library-CRUD)_
 
-##### Bloco 14: Metodologias Ágeis :hourglass_flowing_sand:
+##### Bloco 14: Metodologias Ágeis :white_check_mark:
 
-- [ ] 14-1: _Metodologias ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+- [x] 14-1: _Metodologias ágeis_
+- [x] 14-2: _[Projeto - Frontend Online Store](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/13.frontEnd-online-Store)_
 
-##### Bloco 15: Testes em React
+##### Bloco 15: Testes em React :hourglass_flowing_sand:
 
 - [ ] 15-1: _Testando React com a React Testing Library_
 - [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
