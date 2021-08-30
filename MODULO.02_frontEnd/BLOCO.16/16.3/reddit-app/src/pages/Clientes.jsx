@@ -5,6 +5,14 @@ import { Link } from 'react-router-dom';
 class Clientes extends Component {
   render() {
     const { userRegistration } = this.props;
+    if (userRegistration.length < 1)
+    return (
+      <div className="conteiner">
+        <h2>CLIENTES CADASTRADOS PAGE</h2>
+        <div>Nenhum cliente cadastrado</div>
+        <Link to="/registro" className="button">Cadastre agora!</Link>
+      </div>
+    );
     return (
       <div className="conteiner">
         <h2>CLIENTES CADASTRADOS PAGE</h2>

@@ -53,7 +53,7 @@ class Login extends Component {
             />
           </label>
           <Link
-            to="/clientes"
+            to="/logged"
             className="button"
             onClick={ () => this.onSubmitForm() }>
             LOGIN

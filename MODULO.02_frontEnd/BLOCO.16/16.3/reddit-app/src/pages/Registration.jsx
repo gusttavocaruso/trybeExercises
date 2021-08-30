@@ -44,6 +44,7 @@ class Registration extends Component {
               id="nome"
               onChange={ this.handleChange }
               value={ nome }
+              required
             />
           </label>
           <label htmlFor="idade" className="conteiner">
@@ -54,6 +55,7 @@ class Registration extends Component {
               id="idade"
               onChange={ this.handleChange }
               value={ idade }
+              required
             />
           </label>
           <label htmlFor="email" className="conteiner">
@@ -64,6 +66,7 @@ class Registration extends Component {
               id="email"
               onChange={ this.handleChange }
               value={ email }
+              required
             />
           </label>
           <label htmlFor="password" className="conteiner">
@@ -74,11 +77,13 @@ class Registration extends Component {
               id="password"
               onChange={ this.handleChange }
               value={ password }
+              required
             />
           <Link
             to="/clientes"
             className="button"
-            onClick={ () => this.onSubmitForm() }>
+            onClick={ () => this.onSubmitForm() }
+            required>
             DO IT!
           </Link>
           <Link to="/login" className="button"> BACK </Link>
@@ -96,4 +101,4 @@ const mapDispatchToProps = (dispatch) => (
   { onSubmit: (state) => dispatch(registerCreator(state)) }
 );
 
-export default connect(mapStateToProps, mapDispatchToProps)(Registration)
+export default connect(mapStateToProps, mapDispatchToProps)(Registration);
