@@ -1,12 +1,11 @@
 # trybeExercises
 
-[Trybe's](https://www.betrybe.com/) Software Engineering course repositorie that contains exercises and projects done. :rocket:
+[Trybe's](https://www.betrybe.com/) Software Engineering course repositorie that contains exercises and projects done.
 
 # :chess_pawn: :man_technologist: :bulb:
 
 
 
-## 
 ### MODULO_01 :open_file_folder: - Fundamentos do Desenvolvimento de Software :white_check_mark:
  
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark: 
