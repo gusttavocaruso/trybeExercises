@@ -5,14 +5,20 @@ import { Link } from 'react-router-dom';
 class Clientes extends Component {
   render() {
     const { userRegistration } = this.props;
-    const { email, password } = userRegistration;
     return (
       <div className="conteiner">
         <h2>CLIENTES CADASTRADOS PAGE</h2>
-        <ul>
-          <li>Email: { email }</li>
-          <li>Password: { password }</li>
-        </ul>
+        { userRegistration.map((user, index) => {
+          return (
+            <ul key={ user.email }>
+              <li>ID: { index+1 }</li>
+              <li>Nome: { user.nome }</li>
+              <li>Idade: { user.idade }</li>
+              <li>Email: { user.email }</li>
+              <li>Password: { user.password }</li>
+            </ul>
+          );
+        })}
         <Link 
           className="button"
           to="/registro">
