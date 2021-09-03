@@ -1,0 +1,140 @@
+.App {
+  background-color: #757c8a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-header input {
+  font-size: large;
+}
+
+.App-header h2 {
+  font-family: monospace;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.form-header {
+  align-items: center;
+  background-color: #23375f;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  justify-content: center;
+}
+
+.form-header input {
+  font-size: large;
+}
+
+.form-header select {
+  font-size: large;
+}
+
+.form-header button {
+  font-size: large;
+}
+
+.form-header fieldset {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-header label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.wallet-header {
+  align-items: center;
+  background-color: #1a1f27;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  justify-content: space-around;
+}
+
+.App-header label {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.button {
+  align-items: center;
+  background-color: seagreen;
+  border-radius: 10px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  margin: 5% auto;
+  padding: 10px;
+}
+
+.add-button {
+  align-items: center;
+  background-color: seagreen;
+  border-radius: 10px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+}
+
+.img {
+  background-image: url('./Wallet-PNG-Transparent-Images.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+.img2 {
+  background-image: url('./openWallet.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 65vw;
+  opacity: 90%;
+  width: 98.8vw;
+}
+
+.eraLi {
+  align-items: center;
+  background-color: #282c34;
+  border: solid black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px 2px;
+}
+
+.vlr {
+  width: 70px;
+}
