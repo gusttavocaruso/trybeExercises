@@ -1,0 +1,13 @@
+.something {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px;
+  text-align: center;
+}
+
+.something button {
+  width: 100px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
