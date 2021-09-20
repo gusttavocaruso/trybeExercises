@@ -124,15 +124,15 @@
 - [x] 16-5: _Testes síncronos com React-Redux_
 - [x] 16-6: _[Projeto - Trybe-Wallet](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/15.trybeWallet)_
 
-##### Bloco 17: Projeto React :hourglass_flowing_sand:
+##### Bloco 17: Projeto React :white_check_mark:
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/16.triviaGame)_
 
-##### Bloco 18: React & Context API
+##### Bloco 18: React & Context API :hourglass_flowing_sand:
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 18-1: _Context API do React_
+- [x] 18-2: _React Hooks - useState e useContext_
+- [x] 18-3: _React Hooks - useEffect e Hooks customizados_
 - [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 19: Projeto Final de Front-end
