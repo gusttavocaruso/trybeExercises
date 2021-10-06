@@ -128,14 +128,14 @@
 
 - [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/16.triviaGame)_
 
-##### Bloco 18: React & Context API :hourglass_flowing_sand:
+##### Bloco 18: React & Context API  :white_check_mark:
 
 - [x] 18-1: _Context API do React_
 - [x] 18-2: _React Hooks - useState e useContext_
 - [x] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/17.starWars)_
 
-##### Bloco 19: Projeto Final de Front-end
+##### Bloco 19: Projeto Final de Front-end  :hourglass_flowing_sand:
 
 - [ ] 19-1: _[Projeto - App de Receitas]()_
 
