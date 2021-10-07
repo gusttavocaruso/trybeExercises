@@ -84,7 +84,7 @@
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/9.Jest%26Mock)_
 
 ##  
-### MODULO_02 :open_file_folder: - Desenvolvimento Front-end :hourglass_flowing_sand:
+### MODULO_02 :open_file_folder: - Desenvolvimento Front-end :white_check_mark:
 
 ##### Bloco 11: Introdução - React :white_check_mark:
 
@@ -140,7 +140,7 @@
 - [x] 19-1: _[Projeto - App de Receitas]()_ 
 
 ## 
-### MODULO_03 :open_file_folder: - Desenvolvimento Back-end
+### MODULO_03 :open_file_folder: - Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais :hourglass_flowing_sand:
 
