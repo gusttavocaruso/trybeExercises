@@ -84,7 +84,7 @@
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/9.Jest%26Mock)_
 
 ##  
-### MODULO_02 :open_file_folder: - Desenvolvimento Front-end :hourglass_flowing_sand:
+### MODULO_02 :open_file_folder: - Desenvolvimento Front-end :white_check_mark:
 
 ##### Bloco 11: Introdução - React :white_check_mark:
 
@@ -128,21 +128,21 @@
 
 - [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/16.triviaGame)_
 
-##### Bloco 18: React & Context API :hourglass_flowing_sand:
+##### Bloco 18: React & Context API  :white_check_mark:
 
 - [x] 18-1: _Context API do React_
 - [x] 18-2: _React Hooks - useState e useContext_
 - [x] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/17.starWars)_
 
-##### Bloco 19: Projeto Final de Front-end
+##### Bloco 19: Projeto Final de Front-end :white_check_mark:
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [x] 19-1: _[Projeto - App de Receitas]()_ 
 
 ## 
-### MODULO_03 :open_file_folder: - Desenvolvimento Back-end
+### MODULO_03 :open_file_folder: - Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+##### Bloco 20: Introdução - Bancos de dados relacionais :hourglass_flowing_sand:
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
