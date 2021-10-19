@@ -135,19 +135,19 @@
 - [x] 18-3: _React Hooks - useEffect e Hooks customizados_
 - [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/17.starWars)_
 
-##### Bloco 19: Projeto Final de Front-end :white_check_mark:
+##### Bloco 18.5: Projeto Final de Front-end :white_check_mark:
 
 - [x] 19-1: _[Projeto - App de Receitas](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/18.recipeApp)_ 
 
 ## 
 ### MODULO_03 :open_file_folder: - Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais :hourglass_flowing_sand:
+##### Bloco 19: Introdução - Bancos de dados relacionais :hourglass_flowing_sand:
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
 ##### Bloco 21: Bancos de dados relacionais
