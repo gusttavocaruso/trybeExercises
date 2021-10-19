@@ -69,6 +69,7 @@ INSERT INTO Scientists(SSN,Name)
     (845657246, 'Ast2'),
     (332569843, 'AeH4');
 
+
 -- RESOLUÇÃO EXERCÍCIO ======================================
 
 -- Escreva uma query para exibir a string "This is SQL Exercise, Practice and Solution".
