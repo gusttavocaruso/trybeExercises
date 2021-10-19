@@ -1,3 +1,6 @@
+SELECT * FROM DB_table
+WHERE title LIKE '%don';
+
 -- Encontra todos os pagamentos deste dia, ignorando horas, minutos e segundos
 SELECT * FROM sakila.payment
 WHERE DATE(payment_date) = '2005-07-31';
