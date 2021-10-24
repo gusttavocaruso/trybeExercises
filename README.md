@@ -140,7 +140,7 @@
 - [x] 18.5-1: _[Projeto - App de Receitas](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/18.recipeApp)_ 
 
 ## 
-### MODULO_03 :open_file_folder: - Desenvolvimento Back-end :white_check_mark:
+### MODULO_03 :open_file_folder: - Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 19: Introdução - Bancos de dados relacionais :white_check_mark:
 
