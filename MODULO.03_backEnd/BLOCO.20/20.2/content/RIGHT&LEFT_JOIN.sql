@@ -1,3 +1,5 @@
+USE sakila;
+
 -- LEFT JOIN =========
 SELECT
     c.customer_id,
