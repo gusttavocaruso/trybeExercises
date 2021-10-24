@@ -140,21 +140,21 @@
 - [x] 18.5-1: _[Projeto - App de Receitas](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/18.recipeApp)_ 
 
 ## 
-### MODULO_03 :open_file_folder: - Desenvolvimento Back-end :hourglass_flowing_sand:
+### MODULO_03 :open_file_folder: - Desenvolvimento Back-end :white_check_mark:
 
-##### Bloco 19: Introdução - Bancos de dados relacionais :hourglass_flowing_sand:
+##### Bloco 19: Introdução - Bancos de dados relacionais :white_check_mark:
 
 - [x] 19-1: _Banco de dados SQL_
 - [x] 19-2: _Encontrando dados em um banco de dados_
 - [x] 19-3: _Filtrando dados de forma específica_
 - [x] 19-4: _Manipulando tabelas_
-- [ ] 19-5: _[Projeto - All For One]()_
+- [x] 19-5: _[Projeto - All For One](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/19.all4One)_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Bancos de dados relacionais :hourglass_flowing_sand:
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs e UNIONs_
+- [x] 21-3: _Stored Routines & Subqueries_
 - [ ] 21-4: _[Projeto - Vocabulary Booster]()_
 
 ##### Bloco 22: Bancos de dados relacionais
