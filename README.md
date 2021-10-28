@@ -150,20 +150,21 @@
 - [x] 19-4: _Manipulando tabelas_
 - [x] 19-5: _[Projeto - All For One](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/19.all4One)_
 
+##### Bloco 20: Bancos de dados relacionais :white_check_mark:
+
+- [x] 20-1: _Funções mais usadas no SQL_
+- [x] 20-2: _Descomplicando JOINs e UNIONs_
+- [x] 20-3: _Stored Routines & Subqueries_
+- [x] 20-4: _[Projeto - Vocabulary Booster](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/20.vocabularyBooster)_
+
 ##### Bloco 21: Bancos de dados relacionais :hourglass_flowing_sand:
 
-- [x] 21-1: _Funções mais usadas no SQL_
-- [x] 21-2: _Descomplicando JOINs e UNIONs_
-- [x] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [x] 21-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 21-2: _Normalização, Formas Normais e Dumps_
+- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [ ] 21-3: _[Projeto - One For All]()_
 
-##### Bloco 22: Bancos de dados relacionais
-
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
-
+<!--
 ##### Bloco 23: Introdução - NoSQL
 
 - [ ] 23-1: _MongoDB - Introdução_
