@@ -5,6 +5,8 @@ CREATE TABLE noticia(
     titulo VARCHAR(100),
     historia VARCHAR(300)
 );
+SELECT * FROM sakila.noticia;
+SHOW COLUMNS FROM sakila.noticia;
 
 -- Abaixo, algumas das alterações que podem ser feitas em uma tabela. =====
 
