@@ -1,3 +1,23 @@
+-- EXEMPLO VIDEO-AULA =======
+USE soccer_player;
+CREATE TABLE retired_players (
+  player_id INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45),
+  CONSTRAINT PRIMARY KEY (player_id)
+);
+
+DELIMITER $$
+CREATE TRIGGER retiredPlayer
+  AFTER DELETE ON player --player é uma tabela do soccer_player
+  FOR EACH ROW
+BEGIN
+  INSERT INTO retired_players(player_id, `name`)
+  VALUES(OLD.player_id, OLD.`name`)
+END $$
+
+DELIMITER ;
+
+-- ============================
 DELIMITER $$
 
 CREATE TRIGGER nome_do_trigger
@@ -8,7 +28,7 @@ BEGIN
 END $$
 
 DELIMITER ;
-
+-- ============================
 
 -- Exemplo de trigger para o INSERT ==== :
 USE rede_social;
