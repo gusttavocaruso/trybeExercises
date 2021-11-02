@@ -12,7 +12,7 @@ CREATE TRIGGER retiredPlayer
   FOR EACH ROW
 BEGIN
   INSERT INTO retired_players(player_id, `name`)
-  VALUES(OLD.player_id, OLD.`name`)
+  VALUES(OLD.player_id, OLD.`name`);
 END $$
 
 DELIMITER ;

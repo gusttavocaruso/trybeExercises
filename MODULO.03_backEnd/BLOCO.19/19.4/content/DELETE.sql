@@ -3,3 +3,5 @@ WHERE coluna = 'valor';
 -- O WHERE é opcional. Porém, sem ele, todas as linhas da tabela seriam excluídas.
 
 TRUNCATE banco_de_dados.tabela
+
+SET SQL_SAFE_DELETE = 0;
