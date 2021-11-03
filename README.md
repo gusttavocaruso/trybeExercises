@@ -157,13 +157,19 @@
 - [x] 20-3: _Stored Routines & Subqueries_
 - [x] 20-4: _[Projeto - Vocabulary Booster](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/20.vocabularyBooster)_
 
-##### Bloco 21: Bancos de dados relacionais :hourglass_flowing_sand:
+##### Bloco 21: Bancos de dados relacionais :white_check_mark:
 
 - [x] 21-1: _Transformando ideias em um modelo de banco de dados_
 - [x] 21-2: _Normalização, Formas Normais e Dumps_
-- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 21-3: _[Projeto - One For All]()_
+- [x] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 21-3: _[Projeto - One For All]()_
 
+##### Bloco 22: Docker - Utilizando Containers :hourglass_flowing_sand:
+
+- [ ] 22-1: _Utilizando Containers - Docker_
+- [ ] 22-2: _Manipulação e Criação de Imagens no Docker_
+- [ ] 22-3: _Orquestrando Containers com Docker Compose_
+- [ ] 22-4: _[Projeto - Docker todo-List]()_
 <!--
 ##### Bloco 23: Introdução - NoSQL
 
