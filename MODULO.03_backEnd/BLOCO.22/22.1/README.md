@@ -13,8 +13,8 @@ EX ==>> docker container run --name trybe-legal ubuntu
 
 ## LISTAR CONTAINER
 
-docker container ls
-docker container ls -a
+docker container ls \
+docker container ls -a \
 docker container ls -l
 
 ## CRIAR UM CONTAINER E RODAR UM COMANDO 
@@ -39,10 +39,10 @@ docker container run -d nome_imagem
 
 ## INICIAR, REINICIAR, PAUSAR, RESUMIR E PARAR UM CONTAINER
 
-docker container start container_id OU container_name
-docker container restart container_id OU container_name
-docker container pause container_id OU container_name
-docker container unpause container_id OU container_name
+docker container start container_id OU container_name \
+docker container restart container_id OU container_name \
+docker container pause container_id OU container_name \
+docker container unpause container_id OU container_name \
 docker container stop container_id OU container_name
 
 ## RETOMAR O ACESSO A UM CONTAINER INICIADO COM -dit
@@ -51,7 +51,7 @@ docker container attach container_id OU container_name
 
 ## EXCLUINDO CONTAINERS
 
-docker container rm container_id OU container_name
+docker container rm container_id OU container_name \
 docker container rm -f container_id OU container_name
 
 ## LIMPANDO CONTAINERS INATIVOS DO PC
