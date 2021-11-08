@@ -1,8 +1,11 @@
 ex2. Crie um container para manter um servidor httpd:2.4 Apache e vincule sua porta interna com a porta 4545 da sua máquina local.
-NO TERMINAL  ==> docker run -d --name site-trybe2 -p 4545:80 -v "<ENDEREÇO_DA_SUA_MAQUINA>" httpd:2.4
+NO TERMINAL  ==> docker run -d --name site-trybe2 -p 4545:80 
+<!-- funciona sem essa parte:
+-v "<ENDEREÇO_DA_SUA_MAQUINA>" httpd:2.4
+ -->
 
 ex3. NO TERMINAL ===> Após criar o container acesse a página HTML que está rodando no servidor em seu browser.
-NO TERMINAL ==> http://localhost:4545/primeiro-teste.html
+NO TERMINAL ==> http://localhost:4545/
 
 ex5. Obtenha o id do container httpd:2.4
 NO TERMINAL ==> docker ps
