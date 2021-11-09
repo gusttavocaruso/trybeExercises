@@ -164,14 +164,14 @@
 - [x] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [x] 21-3: _[Projeto - One For All]()_
 
-##### Bloco 22: Docker - Utilizando Containers :hourglass_flowing_sand:
+##### Bloco 22: Docker - Utilizando Containers :white_check_mark:
 
-- [ ] 22-1: _Utilizando Containers - Docker_
-- [ ] 22-2: _Manipulação e Criação de Imagens no Docker_
-- [ ] 22-3: _Orquestrando Containers com Docker Compose_
-- [ ] 22-4: _[Projeto - Docker todo-List]()_
+- [x] 22-1: _Utilizando Containers - Docker_
+- [x] 22-2: _Manipulação e Criação de Imagens no Docker_
+- [x] 22-3: _Orquestrando Containers com Docker Compose_
+- [x] 22-4: _[Projeto - Docker todo-List]()_
 <!--
-##### Bloco 23: Introdução - NoSQL
+##### Bloco 23: Introdução - NoSQL  :hourglass_flowing_sand:
 
 - [ ] 23-1: _MongoDB - Introdução_
 - [ ] 23-2: _Filter Operators_
