@@ -162,7 +162,7 @@
 - [x] 21-1: _Transformando ideias em um modelo de banco de dados_
 - [x] 21-2: _Normalização, Formas Normais e Dumps_
 - [x] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [x] 21-3: _[Projeto - One For All]()_
+- [x] 21-3: _[Projeto - One For All](https://github.com/gusttavocaruso/trybeExercises/tree/master/PROJETOS/21.one4All)_
 
 ##### Bloco 22: Docker - Utilizando Containers :white_check_mark:
 
