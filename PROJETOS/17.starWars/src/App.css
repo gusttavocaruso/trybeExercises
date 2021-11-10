@@ -55,3 +55,12 @@ option {
 .filterON span {
   margin: 4px 15px;
 }
+
+.filter-button {
+  background-color: seagreen;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}

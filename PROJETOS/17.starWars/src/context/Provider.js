@@ -5,7 +5,7 @@ import planetAPI from '../service/planetAPI';
 
 const Provider = ({ children }) => {
   const [data, setData] = useState([]);
-  const [dataFiltered, setDataFiltered] = useState([]);
+  const [dataNameFilter, setDataNameFilter] = useState([]);
   const [filterIN, setFilterIN] = useState(false);
   const [filter, setFilter] = useState({
     filterByName: { name: '' },
@@ -18,14 +18,15 @@ const Provider = ({ children }) => {
     'rotation_period',
     'surface_water',
   ]);
+  
+  const handleAPIRequest = async () => {
+    const APIreturn = await planetAPI();
+    const dataAPI = APIreturn
+      .filter((item) => delete item.residents);
+    setData(dataAPI);
+  };
 
   useEffect(() => {
-    const handleAPIRequest = async () => {
-      const APIreturn = await planetAPI();
-      const dataAPI = APIreturn
-        .filter((item) => delete item.residents);
-      setData(dataAPI);
-    };
     handleAPIRequest();
   }, []);
 
@@ -34,12 +35,13 @@ const Provider = ({ children }) => {
     setData,
     filter,
     setFilter,
-    dataFiltered,
-    setDataFiltered,
+    dataNameFilter,
+    setDataNameFilter,
     filterIN,
     setFilterIN,
     opt1,
     setOpt1,
+    handleAPIRequest,
   };
 
   return (

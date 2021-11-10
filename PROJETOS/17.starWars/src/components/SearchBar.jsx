@@ -5,14 +5,16 @@ const SearchBar = () => {
   const contexto = useContext(Context);
   const {
     data,
-    setFilter,
+    setData,
     filter,
-    setDataFiltered,
+    setFilter,
+    setDataNameFilter,
     filterIN,
     setFilterIN,
     opt1,
-    setOpt1,
+    handleAPIRequest,
   } = contexto;
+
   const { filterByMeasurments: { column, comparison, value } } = filter;
   const opt2 = ['maior que', 'menor que', 'igual a'];
   const objLiterals = {
@@ -21,46 +23,37 @@ const SearchBar = () => {
     'igual a': (a, b) => Number(a) === Number(b),
   };
 
-  console.log(filter);
-
   const handleMeasChange = ({ target }) => {
     setFilter({
       ...filter,
       filterByMeasurments: {
         ...filter.filterByMeasurments,
-        [target.name]: target.value },
+       [target.name]: target.value },
     });
   };
 
   const handleSubmit = () => {
     const dataFilteredBy = data
       .filter((planet) => objLiterals[comparison](planet[column], value));
-    setDataFiltered(dataFilteredBy);
+    setData(dataFilteredBy);
     setFilterIN(true);
-    setOpt1(opt1.filter((opt) => opt !== column));
-    console.log(dataFilteredBy);
   };
 
   useEffect(() => {
     const { filterByName: { name } } = filter;
-    const dataFiltered = data
+    const nameFilter = data
       .filter((planet) => planet.name.toLowerCase()
-        .includes(name.toLowerCase()));
-    setDataFiltered(dataFiltered);
-  }, [filter, data, setDataFiltered]);
+      .includes(name.toLowerCase()));
+    setDataNameFilter(nameFilter);
+  }, [data, filter]);
 
   const handleNameChange = ({ target }) => {
-    setFilter({
-      ...filter,
-      filterByName:
-      { name: target.value },
-    });
+    setFilter({ ...filter, filterByName: { name: target.value } });
   };
 
   const removeFilter = () => {
-    setDataFiltered([]);
+    handleAPIRequest();
     setFilterIN(false);
-    // setOpt1(...opt1, column);
   };
 
   const filterON = (
@@ -76,7 +69,6 @@ const SearchBar = () => {
     <>
       <span>Filter by name: </span>
       <input
-        // value={ name }
         onChange={ handleNameChange }
         data-testid="name-filter"
         type="text"
@@ -102,9 +94,11 @@ const SearchBar = () => {
         onChange={ handleMeasChange }
         className="value-filter"
         data-testid="value-filter"
+        value={ value }
       />
 
-      <button onClick={ handleSubmit } type="button" data-testid="button-filter">
+      <button onClick={ handleSubmit } type="button" data-testid="button-filter"
+      className="filter-button">
         FILT
       </button>
       <br />

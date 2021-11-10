@@ -3,9 +3,9 @@ import Context from '../context/Context';
 
 const Table = () => {
   const contexto = useContext(Context);
-  const { data, dataFiltered } = contexto;
+  const { data, dataNameFilter } = contexto;
   const dataHeaders = data.map((item) => Object.keys(item));
-  const dataTable = dataFiltered.length === 0 ? data : dataFiltered;
+  const dataTable = dataNameFilter.length === 0 ? data : dataNameFilter;
 
   const handleTable = () => (
     <table>
@@ -38,7 +38,8 @@ const Table = () => {
 
   return (
     <div>
-      { dataTable.length === 0 ? <h1>llloading...</h1> : handleTable() }
+      { (dataTable.length === 0 || dataHeaders.length === 0)
+        ? <h1>llloading...</h1> : handleTable() }
     </div>
   );
 };
