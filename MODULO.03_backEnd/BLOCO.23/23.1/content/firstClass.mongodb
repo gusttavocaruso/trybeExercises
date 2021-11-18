@@ -1,0 +1,28 @@
+// show dbs;
+// show collections;
+
+use('class');
+
+db.inventory.insertOne({
+  item: "journal",
+  qnty: 25,
+  size: { h: 14, w: 21 },
+  status: "A",
+});
+
+db.inventory.insertMany([
+  { item: "paper", qnty: 100, status: "D"},
+  {item: "planner", qnty: 75, status: "D"},
+]);
+
+// db.users.insertOne({
+//   _id: "joe",
+//   name: "Joe BookReader",
+// });
+
+use('class');
+
+db.inventory.find({ "size.w": 21 });
+
+db.inventory.find({ status: "A" }, { item: 1, status: 1 });
+
