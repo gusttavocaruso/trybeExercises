@@ -1,6 +1,8 @@
 #cabecalho {
+  color: seagreen;
   font-size: xx-large;
   font-family: monospace;
+  font-weight: 1000;
 }
 
 p {
@@ -9,13 +11,11 @@ p {
 }
 
 #texto-tarefa {
-  height: 30px;
-  width: 250px;
+  font-size: large;
 }
 
 #criar-tarefa {
-  height: 30px;
-  padding: 5px;
+  font-size: large;
   display: inline-block;
 }
 
@@ -24,10 +24,13 @@ p {
   border-bottom: black solid 2.5px;
   border-radius: 10%;
   margin: 5px;
+  font-family: monospace;
+  font-size: large;
 }
 
 #selected-task {
-  background-color: gray;
+  background-color: seagreen;
+  color: white;
 }
 
 .completed {
@@ -36,4 +39,13 @@ p {
 
 #apaga-tudo {
   display: inline-block;
+  font-size: large;
+}
+
+#remover-finalizados {
+  font-size: large;
+}
+
+#funcionamento {
+  font-family: monospace;
 }

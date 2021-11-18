@@ -45,7 +45,7 @@ const SearchBar = () => {
       .filter((planet) => planet.name.toLowerCase()
       .includes(name.toLowerCase()));
     setDataNameFilter(nameFilter);
-  }, [data, filter]);
+  }, [data, filter, setDataNameFilter]);
 
   const handleNameChange = ({ target }) => {
     setFilter({ ...filter, filterByName: { name: target.value } });
