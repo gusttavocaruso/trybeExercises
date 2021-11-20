@@ -16,5 +16,8 @@ db.collections.find(
 // =================
 // AND & OR
 db.collections.find(
-  { $and: [{ $or: [{ ano: 2000 }, { 'avaliacao.bom': 8 }] }, { 'avaliacao.ruim': { $lt: 5 } }] }
+  { $and: [
+    { $or: [{ ano: 2000 }, { 'avaliacao.bom': 8 }] },
+    { 'avaliacao.ruim': { $lt: 5 } }
+  ] }
 );
