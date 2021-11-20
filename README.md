@@ -170,20 +170,22 @@
 - [x] 22-2: _Manipulação e Criação de Imagens no Docker_
 - [x] 22-3: _Orquestrando Containers com Docker Compose_
 - [x] 22-4: _[Projeto - Docker todo-List]()_
-<!--
-##### Bloco 23: Introdução - NoSQL  :hourglass_flowing_sand:
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
 
-##### Bloco 24: Updates
+##### Bloco 23: Introdução - NoSQL  :white_check_mark:
+
+- [x] 23-1: _MongoDB - Introdução_
+- [x] 23-2: _Filter Operators_
+- [x] 23-3: _[Projeto - Data Flights]()_
+
+##### Bloco 24: MongoDB: Updates :hourglass_flowing_sand:
 
 - [ ] 24-1: _Updates Simples_
 - [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
 - [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
 - [ ] 24-4: _[Projeto - Commerce]()_
 
+<!--
 ##### Bloco 25: Aggregation Framework
 
 - [ ] 25-1: _Aggregation Framework - Part 1_
