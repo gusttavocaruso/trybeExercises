@@ -1,3 +1,4 @@
+// $min : altera o valor do campo atual para o valor passado pelo método se o valor passado pelo método for menor do que o valor do campo atual.
 db.collection.updateOne(
   { _id: 100 },
   {
@@ -7,6 +8,7 @@ db.collection.updateOne(
   },
 );
 
+// $max : altera o valor do campo atual para o valor passado pelo método se o valor passado pelo método for maior do que o valor do campo atual.
 db.collection.updateOne(
   { _id: 100 },
   {
