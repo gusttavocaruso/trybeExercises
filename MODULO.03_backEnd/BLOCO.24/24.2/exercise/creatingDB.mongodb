@@ -28,3 +28,4 @@ db.movies.insertMany([
     imdbRating: 7.4,
   },
 ]);
+
