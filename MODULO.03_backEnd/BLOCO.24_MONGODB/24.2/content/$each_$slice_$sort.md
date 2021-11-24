@@ -16,5 +16,5 @@ Similar ao .sort() do JS, vai ordenar a lista.
 se o parametro for -1, decrescente
 se o parametro for 1, crescente
 ```javascript
-  { $sort: -1 } || { $sort: 1 }
+  { $sort: { array: -1 } } || { $sort: { array: 1 } }
 ```

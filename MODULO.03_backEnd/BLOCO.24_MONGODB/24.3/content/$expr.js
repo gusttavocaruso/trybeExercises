@@ -1,9 +1,9 @@
 db.collection.find(
   {
     $expr: {
-      $lt: ["array1", "array2"]
+      $lt: ["$chave1", "$chave2"]
     }
   }
 );
-// compara dois arrays.
-// a operação executará o primeiro pelo segundo.
+// compara duas chaves.
+// a operação executará a primeira pela segunda.
