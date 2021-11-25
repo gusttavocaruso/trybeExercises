@@ -8,7 +8,7 @@ db.articles.aggregate([
 
 db.articles.aggregate([
   {
-    match: {
+    $match: {
       or: [
         { score: { $gt: 70, $lt: 90 } },
         { views: { $gte: 1000 } }

@@ -1,7 +1,7 @@
 // project === projeção
 db.books.aggregate([
   {
-    project : {
+    $project : {
       _id: 0,
       title : 1, // exibe apenas 'title'
     },
@@ -10,7 +10,7 @@ db.books.aggregate([
 
 db.books.aggregate([
   {
-    project : {
+    $project : {
       title : 0, // exibe todos, menos 'title'
     },
   },
@@ -18,7 +18,7 @@ db.books.aggregate([
 
 db.books.aggregate([
   {
-    project : {
+    $project : {
       "author.first": 0, // pode ser usado também em sub-docs
       copies: 0
     }
@@ -29,7 +29,7 @@ db.books.aggregate([
 // A operação a seguir adiciona os novos campos isbn , lastname e copiesSold :
 db.books.aggregate([
   {
-    project: {
+    $project: {
       title: 1,
       lastName: "$author.last",
       copiesSold: "$copies",
