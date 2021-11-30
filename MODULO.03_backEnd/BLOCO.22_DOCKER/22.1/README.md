@@ -59,3 +59,21 @@ docker container rm -f container_id OU container_name
 
 docker container prune
 y
+
+
+=================
+## Apaga todos os contêiners.
+docker container rm -f $(docker container ls -a -q)
+ 
+## Apaga todas as Imagens baixadas.
+docker image rm $(docker image ls -a -q)
+ 
+## Apaga todos os Volumes.
+docker volume rm $(docker volume ls -q)
+ 
+## Apaga todas as redes.
+docker network rm $(docker network ls -q)
+
+#### Onde:
+ -a  : signfica todos os recursos <br />
+ -q  : significa o ID numérico do recurso
