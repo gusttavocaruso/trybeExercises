@@ -19,3 +19,5 @@ db.products.find(
 db.products.find(
   { sku: { $regex: /^ABC/i } }
 );
+
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions

@@ -22,7 +22,7 @@ db.sales.aggregate([
   {
     $group: {
       _id : "$item", // agrupará pela chave 'item'
-      totalSaleAmount: { // criará cjave 'totalSaleAmout'
+      totalSaleAmount: { // criará chave 'totalSaleAmout'
         $sum: { // que será a soma de
           $multiply: ["$price", "$quantity"] // uma mult
         },
