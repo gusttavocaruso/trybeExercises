@@ -86,28 +86,57 @@ async function main() {
 }
 main();
 
-<============== */ 
 
 // 4.5 - Crie uma função que adicione ao arquivo simpsonFamily.json o personagem Nelson Muntz .
 function filterArray(data) {
-  let newJSON = [];
-  for (let i = 1; i <= 4; i += 1) {
-    newJSON.push(...data.filter(({id}) => parseInt(id) === i))
-  }
-  return newJSON
+  const nelsonData = data.filter(({ name }) => name ===  'Nelson Muntz');
+  return (nelsonData);
 }
 
 async function main() {
   try {
-    const responseString = await fs.readFile('simpsonFamily.json', "utf8");
+    const responseString = await fs.readFile('simpsons.json', "utf8");
     const responseParse = JSON.parse(responseString);
     const filteredArray = filterArray(responseParse);
-    const filteredArrayString = JSON.stringify(filteredArray)
-    fs.writeFile('simpsonFamily.json', filteredArrayString);
+
+    const responseFamilyString = await fs.readFile('simpsonFamily.json', 'utf-8');
+    const responseFamilyParse = JSON.parse(responseFamilyString);
+    responseFamilyParse.push(...filteredArray);
+    const newFamilyString = JSON.stringify(responseFamilyParse);
+    console.log(newFamilyString);
+     
+    fs.writeFile('simpsonFamily.json', newFamilyString);
   } catch(err) {
     console.log(err);
   }
 }
 main();
 
-// 4.6 Crie uma função que substitua o personagem Nelson Muntz pela personagem Maggie Simpson no arquivo simpsonFamily.json .
+<============== */ 
+
+// 4.6 Crie uma função que substitua o personagem Nelson Muntz pela personagem 'Maggie Simpson' no arquivo simpsonFamily.json .
+function filterArray(data) {
+  const meggie = data.filter(({ name }) => name === 'Maggie Simpson');
+  return (meggie);
+}
+
+async function main() {
+  try {
+    const responseString = await fs.readFile('simpsons.json', "utf8");
+    const responseParse = JSON.parse(responseString);
+    const filteredArray = filterArray(responseParse);
+
+    const responseFamilyString = await fs.readFile('simpsonFamily.json', 'utf-8');
+    const responseFamilyParse = JSON.parse(responseFamilyString);
+    
+    const WONelson = responseFamilyParse.filter(({ name }) => name !== 'Nelson Muntz');
+    WONelson.push(...filteredArray);
+    const newFamilyString = JSON.stringify(WONelson);
+    console.log(newFamilyString);
+     
+    fs.writeFile('simpsonFamily.json', newFamilyString);
+  } catch(err) {
+    console.log(err);
+  }
+}
+main();

@@ -1,0 +1,16 @@
+{
+  "name": "content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mocha+chai.js",
+  "scripts": {
+    "start": "node teste-manual.js",
+    "test": "mocha tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}

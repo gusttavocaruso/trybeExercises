@@ -4,7 +4,7 @@ const fs = require('fs').promises;
 
 <================ */ 
 
-// Exercicio 04 Crie uma função que lê e escreve vários arquivos ao mesmo tempo.
+// Exercicio 05 Crie uma função que lê e escreve vários arquivos ao mesmo tempo.
 
 // 5.1 - Utilize o Promise.all para manipular vários arquivos ao mesmo tempo.
 
