@@ -19,7 +19,7 @@ touch index.js
 
 PADRÃO
 
-```javascript
+```js
 const express = require('express');
 
 const app = express()
