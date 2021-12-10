@@ -34,20 +34,20 @@
 - [x] 23-2: _Filter Operators_
 - [x] 23-3: _[Projeto - Data Flights]()_
 
-##### Bloco 24: MongoDB: Updates :hourglass_flowing_sand:
+##### Bloco 24: MongoDB: Updates :white_check_mark:
 
 - [x] 24-1: _Updates Simples_
 - [x] 24-2: _Updates Complexos - Arrays - Parte 1_
 - [x] 24-3: _Updates Complexos - Arrays - Parte 2_
 - [x] 24-4: _[Projeto - Commerce]()_
 
-##### Bloco 25: Aggregation Framework
+##### Bloco 25: Aggregation Framework :white_check_mark:
 
 - [x] 25-1: _Aggregation Framework - Part 1_
 - [x] 25-2: _Aggregation Framework - Part 2_
 - [x] 25-3: _[Projeto - Aggregations]()_
 
-##### Bloco 26: Intro - NodeJS
+##### Bloco 26: Intro - NodeJS :white_check_mark:
 
 - [x] 26-1: _NodeJS - Introdução_
 - [x] 26-2: _NodeJS - Fluxo Assíncrono_
@@ -57,7 +57,7 @@
 - [x] 26-6: _[Projeto - Talker Manager]()_
 
 <!--
-##### Bloco 27: NodeJS
+##### Bloco 27: NodeJS :hourglass_flowing_sand:
 
 - [ ] 27-1: _Express: HTTP com Node.js_
 - [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
