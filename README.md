@@ -185,7 +185,6 @@
 - [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
 - [ ] 24-4: _[Projeto - Commerce]()_
 
-<!--
 ##### Bloco 25: Aggregation Framework
 
 - [ ] 25-1: _Aggregation Framework - Part 1_
@@ -199,6 +198,7 @@
 - [ ] 26-3: _NodeJS - Arquitetura_
 - [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
 
+<!--
 ##### Bloco 27: NodeJS
 
 - [ ] 27-1: _Express: HTTP com Node.js_
