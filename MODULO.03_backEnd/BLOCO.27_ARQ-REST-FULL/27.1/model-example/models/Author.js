@@ -49,7 +49,8 @@ No exemplo, desconstruímos essa resposta utilizando [authors] que chega para n�
   }
 ];
 
-/*
+
+/* ========================================
 Note que o retorno da consulta do banco não está no formato que desejamos ( camelCase ). Logo criaremos uma função para realizar essa conversão ( serialize ) e faremos a seguinte modificação no código para arrumar isso. */
 
 //const connection = require('./connection');
@@ -74,10 +75,9 @@ const serialize = (authorData) => ({
 //  getAll,
 // };
 
-/*
-Agora temos os campos no formato correto. E como mencionado anteriormente, queremos o nome completo de autores em um campo da resposta, então vamos implementar uma função com essa finalidade ( getFullNameAuthor ). */
 
-//models/Author.js
+/* =============================================
+Agora temos os campos no formato correto. E como mencionado anteriormente, queremos o nome completo de autores em um campo da resposta, então vamos implementar uma função com essa finalidade ( getFullNameAuthor ). */
 
 //const connection = require('./connection');
 
@@ -112,3 +112,32 @@ const serialize = ({ id, first_name, middle_name, last_name }) => ({
 //module.exports = {
 //  getAll,
 //};
+
+
+/* =========================================
+Agora vamos incrementar nossa aplicação para permitir a criação de novos escritores.
+Primeiro, vamos adicionar dois métodos no nosso model Authors. */
+
+// const connection = require('./connection');
+
+// ...
+
+const isValid = (firstName, middleName, lastName) => {
+  if (!firstName || typeof firstName !== 'string') return false;
+  if (!lastName || typeof lastName !== 'string') return false;
+  if (middleName && typeof middleName !== 'string') return false;
+
+  return true;
+};
+
+const create = async (firstName, middleName, lastName) => connection.execute(
+  'INSERT INTO model_example.authors (first_name, middle_name, last_name) VALUES (?,?,?)',
+  [firstName, middleName, lastName],
+);
+
+module.exports = {
+  getAll,
+  findById,
+  isValid,
+  create,
+};
