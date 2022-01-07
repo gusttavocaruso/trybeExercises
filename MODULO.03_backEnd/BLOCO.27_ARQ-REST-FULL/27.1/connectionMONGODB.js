@@ -31,3 +31,45 @@ const connection = () =>
 }));
 
 module.exports = connection;
+
+// =========================================
+// TO COPY \/ v1
+const { MongoClient } = require('mongodb');
+
+const OPTIONS = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+}
+
+const MONGO_DB_URL = 'mongodb://127.0.0.1:27017';
+let db = null;
+
+const connection = () => {
+  return db
+  ? Promise.resolve(db)
+  : MongoClient.connect(MONGO_DB_URL, OPTIONS)
+  .then((conn) => {
+    db = conn.db('model_example');
+    return db;
+  });
+};
+
+module.exports = connection;
+
+
+// ====================== ***** =====================
+// TO COPY \/ v2
+const mongodb = require('mongodb').MongoClient;
+
+const DB_NAME = 'class';
+const MONGO_DB_URL = `mongodb://localhost:27017/${DB_NAME}`
+const OPTIONS = { useNewUrlParser: true, useUnifiedTopology: true };
+
+const connection = () => mongodb.connect(MONGO_DB_URL, OPTIONS)
+  .then((conn) => conn.db(DB_NAME))
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+
+module.exports = connection;
