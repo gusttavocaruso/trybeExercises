@@ -1,4 +1,3 @@
-const { ObjectId } = require('bson');
 const connect = require('./connections');
 
 const create = async ({ marca, modelo, ano, cor, placa }) => {
