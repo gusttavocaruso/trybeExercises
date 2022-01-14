@@ -23,7 +23,6 @@ describe('Insere um novo filme no BD', () => {
   });
 
   after(() => {
-    // await connectionMock.db('class').collection('movies').drop();
     MongoClient.connect.restore();
   });
 
