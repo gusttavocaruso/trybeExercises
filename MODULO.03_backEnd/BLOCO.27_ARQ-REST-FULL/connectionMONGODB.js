@@ -59,8 +59,8 @@ module.exports = connection;
 
 // ====================== ***** =====================
 // TO COPY \/ v2
-const mongodb = require('mongodb').MongoClient;
 // const { MongoClient } = require('mongodb');
+const mongodb = require('mongodb').MongoClient;
 
 const DB_NAME = 'class';
 const MONGO_DB_URL = `mongodb://localhost:27017/${DB_NAME}`
