@@ -196,28 +196,32 @@
 - [x] 26-1: _NodeJS - Introdução_
 - [x] 26-2: _NodeJS - Fluxo Assíncrono_
 - [x] 26-3: _NodeJS - Testes com NodeJS_
-- [x] 26-4: _NodeJS - Express: HTTP_
+- [x] 26-4: _NodeJS - Express: HTTP com Node
 - [x] 26-5: _NodeJS - Express: Middlewares_
 - [x] 26-6: _[Projeto - Talker Manager]()_
+
+##### Bloco 27: Arquitetura de Software, REST & RESTFull :white_check_mark:
+
+- [x] 27-1: _Arq. de Software - Camada Model_
+- [x] 27-2: _Arq. de Software - Controller & Service_
+- [x] 27-3: _Arq. Web - Rest & RestFull_
+- [x] 27-4: _Arq. de Software - Testando Camadas_
+- [x] 28-5: _[Projeto - Store Manager]()_
+
+##### Bloco 28: Autenticação e Upload de Arquivos :white_check_mark:
+
+- [x] 28-1: _JWT - JSON Web Token_
+- [x] 28-2: _Multer - Upload de Arquivos_
+- [x] 28-3: _Testando APIs com Testes de Integração_
+- [x] 28-4: _[Projeto - CookMaster]()_
+
+##### Bloco 29: Deployment :hourglass_flowing_sand:
+
+- [ ] 29-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 29-2: _Deploy - Gerenciadores de Processos_
+- [ ] 29-3: _[Projeto - Stranger Things]()_
+
 <!--
-##### Bloco 27: NodeJS :hourglass_flowing_sand:
-
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
-
-##### Bloco 28: NodeJS
-
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
-
-##### Bloco 29: NodeJS
-
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
-
 ##### Bloco 30: Introdução - Deploy
 
 - [ ] 30-1: _Infraestrutura - Deploy com Heroku_
