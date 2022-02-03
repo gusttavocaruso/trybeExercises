@@ -1,11 +1,12 @@
 ## comandos sequelize
 
 `npx sequelize-cli init`
-  - iniciar sequelize no projeto. Cria pastas: /config, /migrations, /seeders
+  - iniciar sequelize no projeto.
+  - cria pastas: /config, /migrations, /seeders e /models
+  - cria arquivo index.js em pasta /models
+  - cria arquivo .json na pasta /config que vai referenciar usuario, senha e nome do banco de dados relacional que será utilizado
 
-`npx sequelize-cli model:generate --name Product --attributes name:string`
-  - cria pasta /models 
-  - cria um arquivo index.js dentro da pasta /models.
+`npx sequelize-cli model:generate --name Product --attributes name:string, email:string, etc:etc`
   - cria dentro da pasta /models um arquivo nomeado com o valor passado na flag --name e recebe os atributos passados na flag --attributes
   - cria arquivo na pasta /migrations com um tipo de um 'schema' com as 'chaves' padrões (id, createAt, updateAt) + oq foi passado em --attributes.
 
