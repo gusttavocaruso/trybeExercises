@@ -6,7 +6,10 @@
   - cria arquivo index.js em pasta /models
   - cria arquivo .json na pasta /config que vai referenciar usuario, senha e nome do banco de dados relacional que será utilizado
 
-`npx sequelize-cli model:generate --name Product --attributes name:string, email:string, etc:etc`
+`npx sequelize db:create`
+  - criar o banco de dados name_example que nomeamos no arquivo config.json
+
+`npx sequelize-cli model:generate --name NomeDoModel --attributes name:string, email:string, etc:etc`
   - cria dentro da pasta /models um arquivo nomeado com o valor passado na flag --name e recebe os atributos passados na flag --attributes
   - cria arquivo na pasta /migrations com um tipo de um 'schema' com as 'chaves' padrões (id, createAt, updateAt) + oq foi passado em --attributes.
 
