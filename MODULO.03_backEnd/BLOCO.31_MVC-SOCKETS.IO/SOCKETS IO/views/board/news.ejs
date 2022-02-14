@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+  <title>Quadro de Notícias Turma 13</title>
+</head>
+<body>
+  <h1>Últimas Notícias</h1>
+  <ul id="news"></ul>
+  <script>
+    const socket = io('http://localhost:5000');
+
+    const createLi = ({ title, message }) => {
+      const li = document.createElement('li');
+      const liText = document.createTextNode(`${title}: ${message}`);
+      li.appendChild(liText);
+      document.getElementById('news').appendChild(li);
+    }
+
+    socket.on('notification', createLi);
+
+    socket.on('news', (data) => data.forEach(createLi));
+
+  </script>
+</body>
+</html>
