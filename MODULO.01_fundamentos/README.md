@@ -1,5 +1,5 @@
 
-### MODULO_01 :open_file_folder: - Fundamentos do Desenvolvimento de Software :white_check_mark:
+### MODULO_01 :open_file_folder: - Fundamentos do Desenvolvimento de Software 
  
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark: 
 
