@@ -1,4 +1,4 @@
-### Folder Content
+### MODULO_02 :open_file_folder: - Desenvolvimento Front-end
 
 ##### Bloco 11: Introdução - React :white_check_mark:
 
