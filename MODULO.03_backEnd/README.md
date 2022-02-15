@@ -1,3 +1,5 @@
+### MODULO_03 :open_file_folder: - Desenvolvimento Back-end
+
 ##### Bloco 19: Introdução - Bancos de dados relacionais :white_check_mark:
 
 - [x] 19-1: _Banco de dados SQL_
@@ -52,35 +54,42 @@
 - [x] 26-1: _NodeJS - Introdução_
 - [x] 26-2: _NodeJS - Fluxo Assíncrono_
 - [x] 26-3: _NodeJS - Testes com NodeJS_
-- [x] 26-4: _NodeJS - Express: HTTP_
+- [x] 26-4: _NodeJS - Express: HTTP com Node
 - [x] 26-5: _NodeJS - Express: Middlewares_
 - [x] 26-6: _[Projeto - Talker Manager]()_
 
-<!--
-##### Bloco 27: NodeJS :hourglass_flowing_sand:
+##### Bloco 27: Arquitetura de Software, REST & RESTFull :white_check_mark:
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+- [x] 27-1: _Arq. de Software - Camada Model_
+- [x] 27-2: _Arq. de Software - Controller & Service_
+- [x] 27-3: _Arq. Web - Rest & RestFull_
+- [x] 27-4: _Arq. de Software - Testando Camadas_
+- [x] 28-5: _[Projeto - Store Manager]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: Autenticação e Upload de Arquivos :white_check_mark:
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [x] 28-1: _JWT - JSON Web Token_
+- [x] 28-2: _Multer - Upload de Arquivos_
+- [x] 28-3: _Testando APIs com Testes de Integração_
+- [x] 28-4: _[Projeto - CookMaster]()_
 
-##### Bloco 29: NodeJS
+##### Bloco 29: Deployment :white_check_mark:
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [x] 29-1: _Infraestrutura - Deploy com Heroku_
+- [x] 29-2: _Deploy - Gerenciadores de Processos_
+- [x] 29-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 30: Introdução - Deploy
+##### Bloco 30: Arquitetura SOLID & ORM :white_check_mark:
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [x] 30-1: _Princípios SOLID_
+- [x] 30-2: _ORM - Interface da app com banco de dados_
+- [x] 30-3: _ORM - Associations_
+- [x] 30-4: _[Projeto - API de Blogs]()_
 
-##### Bloco 31: Projeto
+##### Bloco 33: Sockets :white_check_mark:
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [x] 30-1: _Arquitetura: Camada View_
+- [x] 30-2: _Sockets - TCP/UDP & NET_
+- [x] 30-3: _Sockets - Socket.io_
+- [x] 30-4: _Sockets - Socket.io - Praticando_
+- [x] 30-5: _[Projeto BÔNUS - Webchat]()_
