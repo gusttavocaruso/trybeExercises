@@ -1,9 +1,5 @@
-### iniciar projeto - `npm init -y`;
-
-### criar configurações básicas projeto => 
-  - criar arq. `index.js` com `node-express`;
-  - criar variavel port da seguinte maneira: `const PORT = process.env.PORT || 3000`;
-  - criar script `"start"` com `"node index.js"` no package.json;
+### configurações de porta para o Heroku => 
+  - variavel port da seguinte maneira: `const PORT = process.env.PORT || 3000`;
 
 #
 
