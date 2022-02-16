@@ -6,9 +6,10 @@ function Students() {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    api.get('/students').then(response => {
-      setStudents(response.data);
-    })
+    api.get('/students')
+      .then(response => {
+        setStudents(response.data);
+      })
   }, []);
 
   return (
