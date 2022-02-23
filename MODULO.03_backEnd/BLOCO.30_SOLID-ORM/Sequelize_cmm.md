@@ -25,6 +25,8 @@
 `npx sequelize-cli seed:generate --name create-default-product`
   - cria arquivo na pasta seeders
 
+`npx sequelize-cli db:seed: 20220222nomeDoSeeder.js`
+  - executa seed específico
+
 `npx sequelize-cli db:seed:all`
-  - executa seed criando no DB indicado no arquivo /config/config.json document referenciado no arquivo da pasta seeders
-(seeders é mais usado para inserir no banco de dados arquivos 'default' para iniciar banco com dados)
+  - executa todos os seeds contidos na pasta /seeds 
