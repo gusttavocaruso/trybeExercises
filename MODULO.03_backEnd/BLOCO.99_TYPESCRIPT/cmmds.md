@@ -21,3 +21,9 @@ boa prática instalar no projeto pacote npm com definições de tipos para node
 
 compilar em .js
 - `npx tsc`
+
+lib pra instalar -D quando for utilizar express
+- `@types/express`
+
+nodemon para type
+- `ts-node-dev`
