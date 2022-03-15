@@ -1,0 +1,34 @@
+import { Car, Color, Directions, Doors } from './ex04';
+
+const gol = new Car("Volksvagem", Color.prata, 4);
+
+gol.openTheDoor(Doors.driver);
+gol.closeTheDoor(Doors.driver);
+gol.turnOn();
+gol.speedUp();
+gol.speedDown();
+gol.turn(Directions.left);
+gol.speedUp();
+gol.speedDown();
+gol.turn(Directions.right);
+gol.speedUp();
+gol.speedDown();
+gol.turn(Directions.right);
+gol.speedDown();
+gol.stop();
+gol.openTheDoor(Doors.behind_ride);
+gol.closeTheDoor(Doors.behind_ride);
+gol.speedUp();
+gol.speedDown();
+gol.turn(Directions.right);
+gol.speedUp();
+gol.speedDown();
+gol.turn(Directions.left);
+gol.speedUp();
+gol.speedDown();
+gol.turn(Directions.right);
+gol.speedDown();
+gol.stop();
+gol.openTheDoor(Doors.behind_ride);
+gol.closeTheDoor(Doors.behind_ride);
+gol.speedUp();
