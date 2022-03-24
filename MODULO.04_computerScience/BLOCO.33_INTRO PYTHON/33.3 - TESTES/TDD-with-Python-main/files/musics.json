@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Pink Rover",
+        "artist": "Scene Queen",
+        "album": "Pink Rover",
+        "release_year": 2022,
+        "ratings": 7.6,
+        "plays_count": 2119863
+    }, 
+    {
+        "name": "Handshake with Hell",
+        "artist": "Arch Enemy",
+        "album": "Handshake with Hell",
+        "release_year": 2022,
+        "ratings": 8.2,
+        "plays_count": 1610719
+    }, 
+    {
+        "name": "Come Join The Murder",
+        "artist": "The White Buffalo",
+        "album": "Come Join The Murder",
+        "release_year": 2014,
+        "ratings": 9.1,
+        "plays_count": 48859636
+    }, 
+    {
+        "name": "Remember the Name",
+        "artist": "Fort Minor",
+        "album": "The Rising Tied",
+        "release_year": 2005,
+        "ratings": 8.4,
+        "plays_count": 528277493
+    }, 
+    {
+        "name": "FAIRY METAL",
+        "artist": "Banshee",
+        "album": "FAIRY METAL",
+        "release_year": 2022,
+        "ratings": 7.5,
+        "plays_count": 137303
+    }, 
+    {
+        "name": "Running With The Wolves",
+        "artist": "AURORA",
+        "album": "All My Demons Greeting Me As A Friend",
+        "release_year": 2016,
+        "ratings": 8.7,
+        "plays_count": 91392533
+    }, 
+    {
+        "name": "A Terceira Lâmina",
+        "artist": "Zé Ramalho",
+        "album": "Antologia Acústica",
+        "release_year": 1997,
+        "ratings": 8.5,
+        "plays_count": 3090302
+    }, 
+    {
+        "name": "Six Days",
+        "artist": "DJ Shadow",
+        "album": "The Fast And The Furious: Tokyo Drift",
+        "release_year": 2006,
+        "ratings": 7.6,
+        "plays_count": 209681867
+    }, 
+    {
+        "name": "Holy Roller",
+        "artist": "Spiritibox",
+        "album": "Eternal Blue",
+        "release_year": 2021,
+        "ratings": 8.8,
+        "plays_count": 13737518
+    }, 
+    {
+        "name": "Mockingbird",
+        "artist": "Eminem",
+        "album": "Curtain Call: The Hits",
+        "release_year": 2005,
+        "ratings": 8.1,
+        "plays_count": 591149714
+    }, 
+    {
+        "name": "The Mother We Share",
+        "artist": "CHVRCHES",
+        "album": "The Bones of What You Believe",
+        "release_year": 2013,
+        "ratings": 8.3,
+        "plays_count": 154174677
+    }
+]
