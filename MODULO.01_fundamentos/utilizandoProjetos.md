@@ -13,3 +13,14 @@
   `git push <apelido_do_remote> <sua_branch>:master`
 
 - 5. End.
+
+#
+
+Base para rodapé de README:
+<div align="center">
+
+um projeto desenvolvido por Gustavo Caruso durante o curso da [Trybe](https://www.betrybe.com/) ©
+
+<img src="https://avatars.githubusercontent.com/u/82593112?v=4" width="60px">
+
+</div>
