@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "rootDir": "./",
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "strict": true
+  }
+}
+
+/*
+module: especifica o sistema de módulo a ser utilizado no código JavaScript que será gerado pelo compilador como sendo o CommonJS;
+target: define a versão do JavaScript do código compilado como ES6 ;
+rootDir: define a localização raiz dos arquivos do projeto;
+outDir: define a pasta onde ficará nosso código compilado;
+esModuleInterop: habilitamos essa opção para ser possível compilar módulos ES6 para módulos CommonJS;
+strict: habilitamos essa opção para ativar a verificação estrita de tipo.
+*/
