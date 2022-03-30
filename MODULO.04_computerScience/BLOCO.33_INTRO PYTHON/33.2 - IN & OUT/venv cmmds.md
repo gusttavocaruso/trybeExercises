@@ -17,4 +17,8 @@ Você pode conferir se o comando de ativação do ambiente virtual deu certo com
 
   - `which python3`
 
+Para Desativar o ambiente virtual, basta digitar:
+
+  - `deactivate`
+
 ps: venv é 'tipo' node_modules
