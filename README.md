@@ -1,8 +1,17 @@
-# trybeExercises
+<div align="center">
+
+
+
+  <img src="https://avatars.githubusercontent.com/u/82593112?v=4" width="60px">
 
 Repository with [Trybe's](https://www.betrybe.com/) full-stack web course content.
 
 # :chess_pawn: :man_technologist: :bulb:
+
+  ![GitHub language count](https://img.shields.io/github/languages/count/gusttavocaruso/trybeExercises)
+  <!-- ![GitHub top language](https://img.shields.io/github/languages/top/gusttavocaruso/trybeExercises) -->
+
+</div>
 
 <!--
 ## 
