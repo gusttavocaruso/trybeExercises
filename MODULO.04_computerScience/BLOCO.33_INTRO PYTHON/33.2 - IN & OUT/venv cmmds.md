@@ -22,3 +22,8 @@ Para Desativar o ambiente virtual, basta digitar:
   - `deactivate`
 
 ps: venv é 'tipo' node_modules
+
+
+Criar arquivos requirements.txt e dev-requirements.txt
+
+`pip freeze > requirements.txt` || `pip freeze > dev-requirements.txt`
