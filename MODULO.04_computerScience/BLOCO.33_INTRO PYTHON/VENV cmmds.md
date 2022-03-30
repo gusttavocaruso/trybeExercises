@@ -21,9 +21,11 @@ Para Desativar o ambiente virtual, basta digitar:
 
   - `deactivate`
 
-ps: venv é 'tipo' node_modules
+Criar arquivos requirements.txt e listar todas dependencias daquele ambiente de desenvolvimento (.venv), no ambiente:
 
+  - `pip freeze > requirements.txt`
+  (requirements.txt ~= package.json)
 
-Criar arquivos requirements.txt e dev-requirements.txt
+Para instalar todas dependencias do arquivo requirements, dentro do ambiente (.venv):
 
-`pip freeze > requirements.txt` || `pip freeze > dev-requirements.txt`
+  - `python3 -m pip install -r requirements.txt`
