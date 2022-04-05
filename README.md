@@ -4,7 +4,7 @@
 
   <img src="https://avatars.githubusercontent.com/u/82593112?v=4" width="60px">
 
-Repository with [Trybe's](https://www.betrybe.com/) full-stack web course content.
+  [Trybe's](https://www.betrybe.com/) web full stack course repository by Gustavo Caruso.
 
 # :chess_pawn: :man_technologist: :bulb:
 
