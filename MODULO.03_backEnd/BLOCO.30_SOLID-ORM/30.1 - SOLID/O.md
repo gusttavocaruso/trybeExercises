@@ -1,4 +1,4 @@
-Open/Closed principle
+O pen/Closed principle
 
 Entidades de software (classes, módulos, funções, etc) devem estar abertas para extensão, mas fechadas para modificação.
 

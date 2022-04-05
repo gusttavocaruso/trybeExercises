@@ -1,4 +1,4 @@
-Single responsibility principle
+S ingle responsibility principle
 
 Cada classe/função com sua responsabilidade.
 No início isso pode parecer exagero, mas não é, isto é uma promoção da qualidade do código

@@ -1,4 +1,4 @@
-Dependency Inversion Principle
+D ependency Inversion Principle
 
 O Princípio de Inversão de Dependência possui duas definições:
   - (1) módulos de alto nível não devem depender de módulos de baixo nível e ambos devem depender de abstrações; e
