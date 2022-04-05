@@ -1,12 +1,15 @@
 <div align="center">
 
-  <img src="https://avatars.githubusercontent.com/u/82593112?v=4" width="60px">
 
-    [Trybe's](https://www.betrybe.com/) web full stack course repository by Gustavo Caruso.
+<img src="https://avatars.githubusercontent.com/u/82593112?v=4" width="60px"/>
 
-    # :chess_pawn: :man_technologist: :bulb:
 
-    ![GitHub language count](https://img.shields.io/github/languages/count/gusttavocaruso/trybeExercises)
+[Trybe's](https://www.betrybe.com/) web full stack course repository by Gustavo Caruso. ©
+
+# :chess_pawn: :man_technologist: :bulb:
+
+  ![GitHub language count](https://img.shields.io/github/languages/count/gusttavocaruso/trybeExercises)
+
 
 </div>
 
