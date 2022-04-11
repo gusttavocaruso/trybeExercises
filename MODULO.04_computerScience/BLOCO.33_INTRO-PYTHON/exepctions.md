@@ -1,3 +1,7 @@
+função de test
+
+`python3 -m pytest -k nome_da_func_de_tests`
+
 
 ### AssertionError:
 Levantado quando uma instrução assert falha.
