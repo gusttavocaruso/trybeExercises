@@ -1,5 +1,5 @@
 def most_frequent(nums):
-    if len(nums) == 0:
+    if not len(nums):
         return None
 
     most_frequent_num = nums[0]
@@ -22,7 +22,8 @@ if __name__ == "__main__":
     test2 = []  # None
     test3 = [1, 2, 3]  # 1
     test4 = [5, 5, 5, 2, 2, 3, 3, 3, 3, 10, 10, 10, 10, 10, 10]  # 10
-    print(most_frequent(test1))
-    print(most_frequent(test2))
-    print(most_frequent(test3))
-    print(most_frequent(test4))
+
+    print('teste1', most_frequent(test1))
+    print('teste2', most_frequent(test2))
+    print('teste3', most_frequent(test3))
+    print('teste4', most_frequent(test4))
