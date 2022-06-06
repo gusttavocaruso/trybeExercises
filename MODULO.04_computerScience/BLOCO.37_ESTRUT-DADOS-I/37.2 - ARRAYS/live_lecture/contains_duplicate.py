@@ -11,11 +11,13 @@
 
 def contains_duplicate(array_de_numeros):
     array_de_numeros.sort() #O(n2) > **O(n log n)** > O(n)
+
     for index in range(len(array_de_numeros) - 1): #O(n)
         #O(nlogn)
         if array_de_numeros[index] == array_de_numeros[index+1]:
             #2 in array? o(n)
             return True
+
     return False
 
 
